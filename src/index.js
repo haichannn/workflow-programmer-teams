@@ -9,6 +9,13 @@ app.get("/", (req, res) => {
   res.send("Welcome to the Express.js server!");
 })
 
+
+// This route for feature about
+app.get("/about", (req, res) => { 
+  res.send("This is the about page of the Express.js server!");
+})
+
+
 app.listen(PORT, (error) => {
  
   if (error) {
